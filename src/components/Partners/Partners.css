@@ -1,0 +1,45 @@
+.partners {
+    text-align: center;
+}
+
+.partners__title {
+    font-family: 'FuturaDemiC';
+    font-size: 36px;
+    color: #eb645a;
+}
+
+.partners__text {
+    font-size: 24px;
+    font-family: 'FuturaBookC';
+
+}
+
+.partners__slider {
+    background-color: #eb645a;
+}
+
+.partners__button {
+    font-family: 'FuturaDemiC';
+    border-radius: 8px;
+    border: none;
+    color: white;
+    line-height: 30px;
+    background-color: #29d3d1;
+    font-size: 20px;
+    height: 64px;
+    width: 100%;
+    max-width: 360px;
+}
+
+/* border-radius: 3px;
+border: none;
+background: #2BE080;
+margin-bottom: 15px;
+height: 45px;
+cursor: pointer;
+color: #FFF;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; */

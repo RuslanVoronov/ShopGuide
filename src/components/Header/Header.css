@@ -1,0 +1,29 @@
+.header {
+    padding: 40px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.header__nav-link {
+    background-image: url('../../images/icon_rect.svg');
+    height: 40px;
+    margin-right: 15px;
+}
+
+.header__button {
+    height: 40px;
+    cursor: pointer;
+    margin-left: auto;
+    color: #FFF;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid;
+}

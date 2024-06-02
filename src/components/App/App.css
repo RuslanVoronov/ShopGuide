@@ -1,0 +1,10 @@
+.App {
+  margin: auto;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.App__background {
+  background: url('../../images/bg.jpg');
+  background-size: 100% 100%;
+}

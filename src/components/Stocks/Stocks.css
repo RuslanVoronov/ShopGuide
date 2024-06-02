@@ -1,0 +1,42 @@
+.stocks {}
+
+.stocks__container {
+    margin: auto;
+    margin-top: 315px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+
+.stocks__description {
+    margin: 75px 0 0 auto;
+}
+
+.stocks__title {
+    font-family: 'FuturaDemiC';
+    font-size: 32px;
+    margin: 0;
+}
+
+.stocks__text {
+    font-family: 'FuturaBookC';
+    font-size: 20px;
+    max-width: 560px;
+    margin: 35px 0 0;
+}
+
+.stocks__phones {
+    margin-top: -190px;
+    margin-right: auto;
+}
+
+.stocks__phones_first-phone {
+    position: relative;
+    z-index: 3;
+    margin-right: -85px;
+}
+
+.stocks__phones_second-phone {
+    margin-bottom: 50px;
+    z-index: 2;
+}

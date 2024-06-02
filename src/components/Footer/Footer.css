@@ -1,0 +1,36 @@
+.footer {
+    padding: 40px 160px;
+    background: url('../../images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    color: white;
+}
+
+.footer__hypertext {
+    display: flex;
+}
+
+.footer__hypertext p {
+    color: #6a5e54;
+    font-family: 'FuturaBookC';
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.footer__button {
+    background: none;
+    text-transform: uppercase;
+    padding: 0;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    border: 2px solid white;
+    object-fit: cover;
+}
