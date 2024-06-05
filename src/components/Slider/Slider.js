@@ -11,27 +11,28 @@ import nike from '../../images/logos/logo_nike.png'
 import prada from '../../images/logos/logo_prada.png'
 import zara from '../../images/logos/logo_zara.png'
 
-import 'swiper/swiper-bundle.css';
-
+import 'swiper/css';
+import 'swiper/css/navigation';
 import './Slider.scss';
 
 
 
 const Slider = () => {
     const [items, setItems] = useState([prada, nike, cym, adidas, gum, zara, carlo])
-    const swiper = useSwiper();
     return (
 
         < div className="slider__track" >
             <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation]}
                 spaceBetween={44}
-                navigation
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-                slidesPerView={7}
-            // onSlideChange={() => console.log('slide change')}
-            // onSwiper={(swiper) => console.log(swiper)}
+                slidesPerView="auto"
+                navigation={{
+                    prevEl: '.slider__btn-prev',
+                    nextEl: '.slider__btn-next',
+                }}
+                centeredSlides
+                slideToClickedSlide
+                initialSlide={3}
             >
                 {items.map((item) => {
                     return (
@@ -39,10 +40,8 @@ const Slider = () => {
                     )
                 })}
             </Swiper>
-            {/* <button onClick={() => swiper.slideNext()}></button> */}
-
-            {/* <button className={styles.Slider__button}></button>
-            <button className={styles.Slider__button}></button> */}
+            <div class="slider__btn-prev"></div>
+            <div class="slider__btn-next"></div>
         </div >
 
 
