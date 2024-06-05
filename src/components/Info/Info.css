@@ -17,7 +17,9 @@
     display: flex;
     list-style: none;
 }
-
+.info__title_active {
+   color: black;
+}
 .info__title {
     cursor: pointer;
     margin-top: 70px;

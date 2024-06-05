@@ -12,7 +12,7 @@
 }
 
 .main__phone {
-    margin-bottom: -100px;
+    margin-bottom: -89px;
 }
 
 .download__popup {
@@ -74,8 +74,8 @@
 .download__button {
     background: none;
     color: inherit;
-    border: 2px solid #695b4c;
-    border-radius: 3px;
+    border: 1px solid #fff;
+    border-radius: 8px;
     padding: 0;
     font: inherit;
     cursor: pointer;
