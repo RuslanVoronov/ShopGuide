@@ -1,3 +1,6 @@
+$tablet: "(max-width: 1023px)";
+$mobile: "(max-width: 767px)";
+
 .footer {
     padding: 40px 160px;
     background: url('../../images/bg.jpg');
@@ -17,14 +20,15 @@
     display: flex;
 }
 
-.footer__hypertext p { 
+.footer__hypertext p {
     color: #B5B5B5;
     font-family: 'FuturaBookC';
     font-size: 12px;
     text-decoration: underline;
 }
-.footer__hypertext p:first-child { 
-   margin-right: 40px;
+
+.footer__hypertext p:first-child {
+    margin-right: 40px;
 }
 
 .footer__button {
@@ -47,4 +51,30 @@
 .footer__button-icon {
     max-height: 20px;
     margin-right: 10px;
+}
+
+@media ($tablet) {
+    .footer {
+        padding: 40px 70px;
+    }
+}
+
+@media ($mobile) {
+    .footer {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer__copyright {
+        margin: 40px 0 30px;
+    }
+
+    .footer__hypertext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__hypertext p:first-child {
+        margin: 0 0 20px;
+    }
 }

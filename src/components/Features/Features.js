@@ -1,4 +1,4 @@
-import './Features.css'
+import './Features.scss'
 import like from '../../images/like.svg'
 import sheet from '../../images/sheet.svg'
 import bell from '../../images/bell.svg'

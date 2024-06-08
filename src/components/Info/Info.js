@@ -1,7 +1,7 @@
 import './Info.css'
 import phone from '../../images/phone2_ref.png'
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link, Route, Router } from 'react-router-dom';
 
 
 function Info() {

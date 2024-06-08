@@ -1,5 +1,6 @@
 .info {
     display: flex;
+    display: none;
     background-color: #29d3d1;
 }
 

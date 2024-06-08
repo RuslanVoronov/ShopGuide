@@ -1,4 +1,4 @@
-import './Header.css'
+import './Header.scss'
 import facebook from '../../images/icon_fb.svg'
 import instagram from '../../images/icon_ig.svg'
 import vk from '../../images/icon_vk.svg'

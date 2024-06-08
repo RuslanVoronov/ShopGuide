@@ -1,3 +1,6 @@
+$tablet: "(max-width: 1023px)";
+$mobile: "(max-width: 767px)";
+
 .Slider {
     width: 100%;
     position: relative;
@@ -53,10 +56,23 @@
     right: 155px;
 }
 
-// .swiper-button-next::after {
-//     display: none;
-// }
 
-// .swiper-button-prev::after {
-//     display: none;
-// }
+@media ($tablet) {
+    .slider__btn-prev {
+        left: 70px;
+    }
+
+    .slider__btn-next {
+        right: 70px;
+    }
+}
+
+@media ($mobile) {
+    .slider__btn-prev {
+        left: 10px;
+    }
+
+    .slider__btn-next {
+        right: 10px;
+    }
+}

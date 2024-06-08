@@ -1,4 +1,4 @@
-import './Partners.css'
+import './Partners.scss'
 import phone from '../../images/_phone1.png'
 import Slider from '../Slider/Slider';
 

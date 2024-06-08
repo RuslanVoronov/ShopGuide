@@ -1,0 +1,48 @@
+$tablet: "(max-width: 1023px)";
+$mobile: "(max-width: 767px)";
+
+.header {
+    padding: 40px 160px;
+    display: flex;
+    justify-content: space-between;
+
+    .header__nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+
+        .header__nav-link {
+            background-image: url('../../images/icon_rect.svg');
+            height: 40px;
+            margin-right: 10px;
+        }
+    }
+
+    .header__button {
+        height: 46px;
+        max-width: 216px;
+        width: 100%;
+        cursor: pointer;
+        margin-left: auto;
+        color: #FFF;
+        background: none;
+        text-align: center;
+        text-transform: uppercase;
+        border: 2px solid;
+        border-radius: 5px;
+    }
+
+}
+
+@media ($tablet) {
+    .header {
+        padding: 40px 100px;
+    }
+}
+
+@media ($mobile) {
+    .header {
+        display: none;
+    }
+}

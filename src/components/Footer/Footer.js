@@ -1,4 +1,4 @@
-import './Footer.css'
+import './Footer.scss'
 import message from '../../images/contact.svg';
 
 function Footer() {

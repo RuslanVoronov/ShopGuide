@@ -1,3 +1,6 @@
+$tablet: "(max-width: 1023px)";
+$mobile: "(max-width: 767px)";
+
 .stocks {}
 
 .stocks__container {
@@ -21,13 +24,14 @@
 .stocks__text {
     font-family: 'FuturaBookC';
     font-size: 20px;
-    max-width: 560px;
+    max-width: 455px;
     margin: 35px 0 0;
 }
 
 .stocks__phones {
     margin-top: -150px;
     margin-right: auto;
+    width: 550px;
 }
 
 .stocks__phones_first-phone {
@@ -40,4 +44,41 @@
 .stocks__phones_second-phone {
     margin-bottom: 27px;
     z-index: 2;
+}
+
+
+@media ($tablet) {
+    .stocks__phones {
+       display: none;
+    }
+
+    .stocks__container { 
+        margin-top: 0;
+    }
+
+    .stocks__description {
+        margin: 50px auto;
+        text-align: center;
+    }
+}
+
+@media ($mobile) {
+    .stocks__container {
+        background-color: white;
+    }
+
+    .stocks__description {
+        margin: 0 auto;
+    }
+
+    .stocks__text {
+        margin: 30px 0 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .stocks__text {
+        max-width: 290px;
+    }
 }

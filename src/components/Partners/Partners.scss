@@ -1,3 +1,6 @@
+$tablet: "(max-width: 1023px)";
+$mobile: "(max-width: 767px)";
+
 .partners {
     text-align: center;
 }
@@ -6,6 +9,7 @@
     font-family: 'FuturaDemiC';
     font-size: 36px;
     color: #eb645a;
+    margin: 68px 0 28px;
 }
 
 .partners__text {
@@ -32,15 +36,16 @@
     max-width: 360px;
 }
 
-/* border-radius: 3px;
-border: none;
-background: #2BE080;
-margin-bottom: 15px;
-height: 45px;
-cursor: pointer;
-color: #FFF;
-text-align: center;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal; */
+
+@media ($tablet) {
+    .partners__title {
+        margin: 80px 0 60px;
+    }
+}
+
+@media ($mobile) {
+    .partners__text {
+        max-width: 300px;
+        margin: 40px auto;
+    }
+}

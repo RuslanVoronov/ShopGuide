@@ -1,5 +1,8 @@
+$tablet: "(max-width: 1023px)";
+$mobile: "(max-width: 767px)";
+
 .main {
-    padding: 120px 220px 0 300px;
+    padding-top: 120px;
     display: flex;
     overflow: hidden;
     justify-content: space-between;
@@ -7,12 +10,14 @@
 
 .main__download {
     position: relative;
-    width: 460px;
-    height: 500px;
+    margin-left: 16.75vw;
+    width: 100%;
+    max-width: 517px;
 }
 
 .main__phone {
     margin-bottom: -89px;
+    margin-right: 16.75vw;
 }
 
 .download__popup {
@@ -91,4 +96,52 @@
 
 .download__button_type_ios {
     background: url(../../images/download_ios.svg) no-repeat;
+}
+
+@media ($tablet) {
+    .main__phone {
+        display: none;
+    }
+
+    .main__download {
+        margin: auto;
+    }
+
+    .main {
+        padding: 190px 0 205px;
+
+    }
+}
+
+@media ($mobile) {
+    .main {
+        padding: 190px 0 205px;
+    }
+}
+
+@media (max-width: 479px) {
+    .download__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download__button {
+        max-width: 225px;
+    }
+
+    .download__button_type_android {
+        margin: 0 0 20px;
+    }
+
+    .download__title {
+        max-width: 350px;
+    }
+
+    .download__subtitle {
+        margin: 8px 0 30px;
+    }
+
+    .main__download {
+       text-align: center;
+    }
 }
