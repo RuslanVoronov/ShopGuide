@@ -1,0 +1,63 @@
+.info {
+    display: flex;
+    background-color: #29d3d1;
+    padding: 70px 10px 0;
+}
+
+.info__container {
+    width: 100%;
+}
+
+.info__phone {
+    height: 565px;
+    margin-top: -135px;
+    margin-bottom: -75px;
+}
+
+.phone__screen {}
+
+.info__title {
+    margin: 0;
+    opacity: 0.4;
+    cursor: pointer;
+    color: white;
+    font-family: 'Motserrat';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.info__title_active {
+    padding-bottom: 15px;
+    opacity: 1;
+    // border-style: none;
+    border-bottom: 4px solid white;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.info__text {
+    margin: 0;
+    margin-top: 30px;
+    max-width: 700px;
+    color: white;
+    font-family: 'FuturaBookC';
+    font-size: 20px;
+}
+
+@media (max-width: 1599px) {
+    .info {
+        display: none;
+    }
+}
