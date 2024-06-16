@@ -14,6 +14,10 @@ $mobile: "(max-width: 767px)";
 
 .footer__copyright {
     color: white;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .footer__hypertext {
@@ -23,8 +27,11 @@ $mobile: "(max-width: 767px)";
 .footer__hypertext p {
     color: #B5B5B5;
     font-family: 'FuturaBookC';
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: underline;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 16px;
 }
 
 .footer__hypertext p:first-child {
@@ -44,8 +51,10 @@ $mobile: "(max-width: 767px)";
     border-radius: 5px;
     object-fit: cover;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19.5px;
+    font-family: 'Montserrat';
+    font-weight: 400;
 }
 
 .footer__button-icon {

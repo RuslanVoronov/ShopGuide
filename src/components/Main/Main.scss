@@ -20,6 +20,39 @@ $mobile: "(max-width: 767px)";
     margin-right: 16.75vw;
 }
 
+.main__button {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 277px;
+    height: 50px;
+    background-color: #29D3D1;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 60px;
+}
+
+.button__text {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+}
+
+.button__arrow {
+    width: 27px;
+    height: 12px;
+}
+
 .download__popup {
     padding-top: 7px;
     text-align: center;
@@ -142,6 +175,6 @@ $mobile: "(max-width: 767px)";
     }
 
     .main__download {
-       text-align: center;
+        text-align: center;
     }
 }

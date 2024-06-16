@@ -6,7 +6,7 @@ import Main from '../Main/Main';
 import Partners from '../Partners/Partners';
 import Stocks from '../Stocks/Stocks';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Info />
       <Stocks />
       <Partners />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

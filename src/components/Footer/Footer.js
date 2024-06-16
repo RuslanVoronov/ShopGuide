@@ -1,5 +1,5 @@
 import './Footer.scss'
-import message from '../../images/contact.svg';
+import message from '../../images/Vector.svg';
 
 function Footer() {
     return (

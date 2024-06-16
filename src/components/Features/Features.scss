@@ -21,14 +21,19 @@ $mobile: "(max-width: 767px)";
             }
 
             .item__title {
-                font-family: 'FuturaDemiC';
-                font-size: 22px;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 29.26px;
                 margin: 35px 0 15px;
             }
 
             .item__text {
-                font-family: 'FuturaBookC';
+                font-family: 'FuturaDemiC';
                 font-size: 18px;
+                font-weight: 600;
+                line-height: 20px;
+                text-align: center;
                 margin: 0;
                 max-width: 300px;
             }

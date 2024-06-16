@@ -16,8 +16,10 @@ $mobile: "(max-width: 767px)";
 }
 
 .stocks__title {
-    font-family: 'FuturaDemiC';
+    font-family: 'Montserrat';
     font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
     margin: 0;
 }
 
@@ -49,10 +51,10 @@ $mobile: "(max-width: 767px)";
 
 @media ($tablet) {
     .stocks__phones {
-       display: none;
+        display: none;
     }
 
-    .stocks__container { 
+    .stocks__container {
         margin-top: 0;
     }
 
