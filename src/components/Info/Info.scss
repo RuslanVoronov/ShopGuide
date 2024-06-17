@@ -16,6 +16,7 @@
 
 .info__title {
     margin: 0;
+    margin-right: 20px;
     opacity: 0.4;
     cursor: pointer;
     color: white;
@@ -54,7 +55,13 @@
     font-size: 20px;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1399px) {
+    .info__title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1239px) {
     .info {
         display: none;
     }

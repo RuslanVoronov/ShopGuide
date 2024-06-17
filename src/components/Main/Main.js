@@ -11,14 +11,13 @@ function Main() {
                     <p className='popup__text'>ТОЛЬКО ЛУЧШИЕ АКЦИИ</p>
 
                 </div>
-
                 <img src={shopGuide} alt='shop-guide' className='download__title' />
                 <div className='download__subtitle'>
                     <span>загрузить</span>
                 </div>
                 <div className='download__buttons'>
-                    <button className='download__button download__button_type_android'></button>
                     <button className='download__button download__button_type_ios'></button>
+                    <button className='download__button download__button_type_android'></button>
                 </div>
             </div>
             <img src={phone} className='main__phone' alt='Телефон' />
