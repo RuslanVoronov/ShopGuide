@@ -10,11 +10,11 @@ function Header() {
         <header className="header">
             <nav>
                 <ul className='header__nav'>
-                    <li><img src={facebook} alt='фейсбук' className='header__nav-link' /></li>
-                    <li><img src={instagram} alt='инстаграм' className='header__nav-link' /></li>
-                    <li><img src={vk} alt='вконтакте' className='header__nav-link' /></li>
-                    <li><img src={twitter} alt='твиттер' className='header__nav-link' /></li>
-                    <li><img src={od} alt='одноклассники' className='header__nav-link' /></li>
+                    <li className='header__nav-item'><img src={vk} alt='вконтакте' className='header__nav-link' /></li>
+                    <li className='header__nav-item'><img src={twitter} alt='твиттер' className='header__nav-link' /></li>
+                    <li className='header__nav-item'><img src={instagram} alt='инстаграм' className='header__nav-link' /></li>
+                    <li className='header__nav-item'><img src={facebook} alt='фейсбук' className='header__nav-link' /></li>
+                    <li className='header__nav-item'><img src={od} alt='одноклассники' className='header__nav-link' /></li>
                 </ul>
             </nav>
             <button className='header__button'>стать партнёром</button>

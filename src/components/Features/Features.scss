@@ -2,7 +2,7 @@ $tablet: "(max-width: 1023px)";
 $mobile: "(max-width: 767px)";
 
 .features {
-    padding: 110px 135px 135px;
+    padding: 120px 155px 183px;
     display: flex;
 }
 
@@ -16,11 +16,13 @@ $mobile: "(max-width: 767px)";
 }
 
 .features__item {
-    margin: 0 10px 0;
+    margin: 0;
+    width: 300px;
     text-align: center;
 
     .item__image {
-        height: 75px;
+        height: 70px;
+
     }
 
     .item__title {
@@ -28,7 +30,8 @@ $mobile: "(max-width: 767px)";
         font-size: 24px;
         font-weight: 600;
         line-height: 29.26px;
-        margin: 35px 0 15px;
+        margin: 36px 0 19px;
+
     }
 
     .item__text {

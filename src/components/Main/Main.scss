@@ -2,7 +2,7 @@ $tablet: "(max-width: 1023px)";
 $mobile: "(max-width: 767px)";
 
 .main {
-    padding-top: 120px;
+    padding-top: 127px;
     display: flex;
     overflow: hidden;
     justify-content: space-between;
@@ -16,9 +16,11 @@ $mobile: "(max-width: 767px)";
 }
 
 .main__phone {
-    margin-bottom: -89px;
-    margin-right: 16.75vw;
+    height: 700px;
+    margin-bottom: -92px;
+    margin-right: 225px !important;
 }
+
 
 .main__button {
     position: absolute;
@@ -54,19 +56,18 @@ $mobile: "(max-width: 767px)";
 }
 
 .download__popup {
-    padding-top: 10px;
+    padding: 10px 20px;
     text-align: center;
     box-sizing: border-box;
     margin-left: auto;
     margin-top: 73px;
-    margin-right: -32px;
-    // padding: 10px 20px;
+    margin-right: -37px;
     position: relative;
     right: 0;
     background: url(../../images/only_popup.svg) no-repeat;
     width: 245px;
     height: 53px;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .popup__text {
@@ -80,18 +81,19 @@ $mobile: "(max-width: 767px)";
 }
 
 .download__subtitle {
-    margin: 22px 0 16px;
+    margin: 16px 0 20px;
     text-align: center;
     overflow: hidden;
     font-family: 'Montserrat';
     font-size: 16px;
     font-weight: 400;
     line-height: 19.5px;
+    max-width: 469px;
 }
 
 .download__subtitle span {
     color: white;
-    font-family: 'FuturaBookC';
+    font-family: 'Montserrat';
     font-size: 16px;
     position: relative;
 }
@@ -164,6 +166,7 @@ $mobile: "(max-width: 767px)";
     }
 
     .download__popup {
+        margin-top: 0;
         margin-right: 0;
     }
 }
@@ -187,7 +190,7 @@ $mobile: "(max-width: 767px)";
     }
 
     .download__subtitle {
-        margin: 8px 0 30px;
+        margin: 18px 0 30px;
     }
 
     .main__download {

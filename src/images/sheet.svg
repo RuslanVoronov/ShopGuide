@@ -1,23 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#B6D5DC;}
-</style>
-<g>
-	<path class="st0" d="M76.1,83H23.9c-3.8,0-6.9-3.2-6.9-7.1V53.6c0-1.9,0.7-3.6,1.9-4.9c1.3-1.4,3.1-2.2,5-2.2h52.2
-		c3.8,0,6.9,3.2,6.9,7.1v22.2C83,79.8,80,83,76.1,83z M23.9,50.1c-0.8,0-1.6,0.4-2.3,1.1c-0.7,0.6-1,1.5-1,2.5v22.2
-		c0,1.9,1.5,3.6,3.2,3.6H76c1.8,0,3.2-1.6,3.2-3.6V53.6c0-1.9-1.5-3.6-3.2-3.6H23.9z"/>
-	<path class="st0" d="M80.2,49.4h-3.7V23.2c0-1.5-1.2-2.6-2.8-2.6H26.5c-0.7,0-1.5,0.3-2,0.8c-0.5,0.5-0.7,1.1-0.7,1.8v26.2H20V23.2
-		c0-1.6,0.7-3.2,1.8-4.4c1.2-1.2,2.9-1.9,4.6-1.9h47.3c3.5,0,6.4,2.8,6.4,6.2V49.4z"/>
-	<path class="st0" d="M71,49.6c-1,0-1.8-0.8-1.8-1.8v-4.7H30.4v4.7c0,1-0.8,1.8-1.8,1.8s-1.8-0.8-1.8-1.8v-6.6c0-1,0.8-1.8,1.8-1.8
-		h42.4c1,0,1.8,0.8,1.8,1.8v6.6C72.9,48.8,72,49.6,71,49.6z"/>
-	<path class="st0" d="M67.8,42c-1,0-1.8-0.8-1.8-1.8v-3.7H34.1v3.7c0,1-0.8,1.8-1.8,1.8c-1,0-1.8-0.8-1.8-1.8v-5.5
-		c0-1,0.8-1.8,1.8-1.8h35.5c1,0,1.8,0.8,1.8,1.8v5.5C69.6,41.2,68.7,42,67.8,42z"/>
-	<path class="st0" d="M64.5,35.1c-1,0-1.8-0.8-1.8-1.8v-3.5h-25v3.5c0,1-0.8,1.8-1.8,1.8c-1,0-1.8-0.8-1.8-1.8V28
-		c0-1,0.8-1.8,1.8-1.8h28.8c1,0,1.8,0.8,1.8,1.8v5.3C66.4,34.3,65.6,35.1,64.5,35.1z"/>
-	<path class="st0" d="M59.7,69.8h-19c-1,0-1.8-0.8-1.8-1.8v-4.6c0-1,0.8-1.8,1.8-1.8c1,0,1.8,0.8,1.8,1.8v2.8h15.3v-2.8
-		c0-1,0.8-1.8,1.8-1.8c1,0,1.8,0.8,1.8,1.8V68C61.6,69,60.8,69.8,59.7,69.8z"/>
-</g>
+<svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="66" height="66" fill="url(#pattern0_2_295)"/>
+<defs>
+<pattern id="pattern0_2_295" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_2_295" transform="scale(0.0151515)"/>
+</pattern>
+<image id="image0_2_295" width="66" height="66" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD+0lEQVR4nO3bS2hdRRzH8U+uKZpIEq2Vppi6iFXBB60gWotYqpKFreBGoVrEhcUsixsRtQRXUjeCG9GCb4R2I1bjoiAo4koRhdQi8QXpxiptkT7UPlzMucnck8TenHvOucnN+cKFM3Nm/vd/f3f+M3Nm5nSNT0yah/sxik1Yjdp8BZcAf2ICb+MdnE0X6JpDiB68gceK9q5NfI2HcCTOnOtffl3nigC341P0xZndqUJbsCOVN4lvi/OrFK7FnVH6VjyPZ+oZaSFGU+mX8II5YmoJshUfmvnNj+NZnGd2aNwRXU/hOZ0hAnyC/VF6EGvribQQV0bXv0rU6iB+S6X76xdLeUjMlUqIhHRnmZVbsFtjaJXBeXyGPbjQiqG8hPhAEKMdjOAQDrRiJK/QWHvxIoUy1KqBvFpEzAlhElYkA1iXp8EihPgS2wqwG7MVH+dpsBo1ElppETUhNrs1CtqL4VacaoLBVHqV8DwxJeMkMKsQw/jc3J3UFvyU0W5WXkw+U9iMnxdqIGto7JRDT10AQ4JvCyarEAMZ65VBJt/yGjXGcCYnWwvlsuT7WyIvIV4R5g/tYEAOQlTDZ8JCWsQN2C4s7m5M3RvD3zn5tFAuTaU3Citrv+M1nGrGSLNCXC7MGK+e5/6uJu2UwW3JBzYIS3IXpdnQGDa/CIuZu5st2Ol9xCXNFsw6auzG+xnrFs04blxopaxC/CHDNLYk/slSqdNDo2n+r0UMmdkJSj/tjYiWwhcZcafeL9rNMnvYnybeBO7BUWGoXC6sx/fMhMZKfGF5iQCvCusn00K8K+wSLzfuwV5CH7END0Q3z+FlvCmESicxKKxX7EJXkrcde7vxRKrwo9hXlmclcwxPC0/KY1H+zprGcwPf6VwRYvbgZJTeVBPOR9U5VK4/beM0DkfpNTWsiDJa2j9cYpyOrldUM8uESoiESoiESoiESoiESoiEIoXoFQ6vbsjBVr+wCHtTDrbmpIjzEXUOCgfaz+Fe4ek2C7Wk7nr8i7vwTR4Opr+kCPoEEQgLqCMt2FojiECY/N3Xgq15KUqItN2mV5PnIF23EJ+rzjKhyD4iZhSPZKxbio9lCXFF8lm0FBUaJxV3TOBYEUaLahFn8bDwrkdvjna/wls52pum6HnEwQLt50o1aiRUQiRUQiRUQiQsZyG64kRN43i/WHe4iyDexjhR03huerPyX0dqBzdrfN/jlxo+ijL6hJfIe8r0qmRWmj0pO9A1PjG5Cj9qbAlHhBdDjpfiWnmsxoO4Ksr7C9d1C+ehdggto/7sfw2eKtPDNnEBT+JofdQYF7bHj7fLozZwSlgH3Ufj8Lkf1wtnIw4La42dxhn8IPzGdXivfuM/PmWOVoGLocoAAAAASUVORK5CYII="/>
+</defs>
 </svg>

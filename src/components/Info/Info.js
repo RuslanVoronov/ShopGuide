@@ -1,5 +1,5 @@
 import './Info.scss'
-import phone from '../../images/phone2_ref.png'
+import screen from '../../images/phone2_actions.jpg'
 import { useState } from 'react';
 import { NavLink, Link, Route, Router } from 'react-router-dom';
 
@@ -18,7 +18,9 @@ function Info() {
                 <img className='phone__screen' alt='экран' src={screen} />
             </div> */}
             <h2 className='info__title' onClick={handleLink}>ИЗБРАННОЕ</h2>
-            <img className='info__phone' alt='телефон' src={phone} />
+            <div className='info__phone' >
+                <img className='phone__screen' alt='экран' src={screen} />
+            </div>
             <div className='info__container'>
                 <nav className='info__nav'>
                     <ul className='nav__list'>

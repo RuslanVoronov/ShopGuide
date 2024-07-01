@@ -2,15 +2,22 @@ $tablet: "(max-width: 1023px)";
 $mobile: "(max-width: 767px)";
 
 .header {
-    padding: 40px 160px;
+    padding: 25px 155px 0 160px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .header__nav {
         margin: 0;
         padding: 0;
         display: flex;
         list-style: none;
+        align-items: center;
+
+        .header__nav-item {
+            display: flex;
+            align-items: center;
+        }
 
         .header__nav-link {
             background-image: url('../../images/icon_rect.svg');
@@ -31,6 +38,10 @@ $mobile: "(max-width: 767px)";
         text-transform: uppercase;
         border: 2px solid;
         border-radius: 5px;
+        font-family: "FuturaDemiC";
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
     }
 
 }

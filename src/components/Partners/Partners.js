@@ -8,8 +8,10 @@ function Partners() {
             <h2 className='partners__title'>НАШИ ПАРТНЁРЫ</h2>
             <div className='partners__slider'></div>
             <Slider />
-            <p className='partners__text'>Хотите стать партнером?<br />
-                Напишите нам и про ваши акции узнают все.</p>
+            <div className='partners__text-container'>
+                <p className='partners__text'>Хотите стать партнером?</p>
+                <p className='partners__text'>Напишите нам и про ваши акции узнают все.</p>
+            </div>
             <button className='partners__button'>СТАТЬ ПАРТНЕРОМ</button>
         </section>
     );

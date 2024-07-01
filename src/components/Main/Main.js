@@ -1,6 +1,6 @@
 import './Main.scss'
 import phone from '../../images/_phone1.png'
-import shopGuide from '../../images/shopguide.svg'
+import shopGuide from '../../images/SHOPGUIDE2.svg'
 import arrow from '../../images/arrow_down.svg'
 
 function Main() {
