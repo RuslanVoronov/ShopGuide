@@ -20,29 +20,31 @@ $mobile: "(max-width: 767px)";
     width: 300px;
     text-align: center;
 
-    .item__image {
-        height: 70px;
 
-    }
+}
 
-    .item__title {
-        font-family: 'Montserrat';
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 29.26px;
-        margin: 36px 0 19px;
+.item__image {
+    height: 70px;
 
-    }
+}
 
-    .item__text {
-        font-family: 'FuturaDemiC';
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 20px;
-        text-align: center;
-        margin: 0;
-        max-width: 300px;
-    }
+.item__title {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    margin: 36px 0 19px;
+
+}
+
+.item__text {
+    font-family: 'FuturaDemiC';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    max-width: 300px;
 }
 
 @media ($tablet) {
@@ -64,5 +66,10 @@ $mobile: "(max-width: 767px)";
 
     .features__item:last-child {
         margin: 0;
+    }
+
+    .item__text {
+        font-size: 20px;
+        line-height: 25px;
     }
 }
