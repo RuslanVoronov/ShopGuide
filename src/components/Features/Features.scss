@@ -19,8 +19,18 @@ $mobile: "(max-width: 767px)";
     margin: 0;
     width: 300px;
     text-align: center;
+}
 
+.features__item:first-child .item__text {
+    max-width: 210px;
+}
 
+.features__item:nth-child(2) .item__text {
+    max-width: 250px;
+}
+
+.features__item:nth-child(3) .item__text {
+    max-width: 280px;
 }
 
 .item__image {
@@ -44,7 +54,8 @@ $mobile: "(max-width: 767px)";
     line-height: 20px;
     text-align: center;
     margin: 0;
-    max-width: 300px;
+    max-width: 290px;
+    margin: auto;
 }
 
 @media ($tablet) {
@@ -71,5 +82,13 @@ $mobile: "(max-width: 767px)";
     .item__text {
         font-size: 20px;
         line-height: 25px;
+    }
+
+    .features__item:first-child .item__text {
+        max-width: 240px;
+    }
+
+    .features__item:nth-child(2) .item__text {
+        max-width: 270px;
     }
 }

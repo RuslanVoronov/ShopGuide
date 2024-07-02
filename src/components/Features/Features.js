@@ -19,9 +19,9 @@ function Features() {
                     <p className='item__text'>Находите ближайшие акции на карте рядом с вами.</p>
                 </li>
                 <li className='features__item'>
-                    <img className='item__image' alt='Уведомление' src={sheet} style={{ height: "66px" }}/>
+                    <img className='item__image' alt='Уведомление' src={sheet} style={{ height: "66px" }} />
                     <h2 className='item__title'>УВЕДОМЛЕНИЯ</h2>
-                    <p className='item__text'>Подписывайтесь только на то, что вас интересует и всегда будьте в курсе новых акций.</p>
+                    <p className='item__text'>Подписывайтесь только на то,<br /> что вас интересует и всегда будьте в курсе новых акций.</p>
                 </li>
                 <li className='features__item'>
                     <img className='item__image' alt='Каталог' src={bell} />

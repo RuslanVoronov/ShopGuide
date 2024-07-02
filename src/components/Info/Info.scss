@@ -9,7 +9,7 @@
 }
 
 .info__phone {
-    margin: -140px 47px -60px 42px;
+    margin: -140px 47px -60px 22px;
     background-image: url('../../images/iPhone.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +22,7 @@
 
 .info__title {
     margin: 0;
+    margin-right: 20px;
     opacity: 0.4;
     cursor: pointer;
     color: white;
@@ -30,10 +31,11 @@
     font-size: 32px;
     line-height: 39px;
     text-align: center;
+    max-height: 40px;
+    padding-bottom: 10px;
 }
 
 .info__title_active {
-    padding-bottom: 10px;
     opacity: 1;
     // border-style: none;
     border-bottom: 4px solid white;
